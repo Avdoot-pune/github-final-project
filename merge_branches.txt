@@ -1,0 +1,6 @@
+ git merge bug-fix-typo
+Updating ad95b0a..f7eacd0
+Fast-forward
+ compound_interest.py | 2 +-
+ simple-interest.sh   | 3 ++-
+ 2 files changed, 3 insertions(+), 2 deletions(-)
