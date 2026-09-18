@@ -1,4 +1,29 @@
- git merge bug-fix-typo
+avdoo@PC_Avdoot MINGW64 ~/OneDrive/Desktop/coursera/practise/mcino-Introduction-to-Git-and-GitHub (main)
+$ git checkout -b bug-fix-typo
+Switched to a new branch 'bug-fix-typo'
+
+avdoo@PC_Avdoot MINGW64 ~/OneDrive/Desktop/coursera/practise/mcino-Introduction-to-Git-and-GitHub (bug-fix-typo)
+$ git add simple-interest.sh
+
+avdoo@PC_Avdoot MINGW64 ~/OneDrive/Desktop/coursera/practise/mcino-Introduction-to-Git-and-GitHub (bug-fix-typo)
+$ git add compound_interest.py
+
+avdoo@PC_Avdoot MINGW64 ~/OneDrive/Desktop/coursera/practise/mcino-Introduction-to-Git-and-GitHub (bug-fix-typo)
+$ git commit -m "Fix typo"
+[bug-fix-typo f7eacd0] Fix typo
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+
+avdoo@PC_Avdoot MINGW64 ~/OneDrive/Desktop/coursera/practise/mcino-Introduction-to-Git-and-GitHub (bug-fix-typo)
+$ git merge bug-fix-typo
+Already up to date.
+
+avdoo@PC_Avdoot MINGW64 ~/OneDrive/Desktop/coursera/practise/mcino-Introduction-to-Git-and-GitHub (bug-fix-typo)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+
+$git merge bug-fix-typo
 Updating ad95b0a..f7eacd0
 Fast-forward
  compound_interest.py | 2 +-
